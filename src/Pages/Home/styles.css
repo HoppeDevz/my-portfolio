@@ -1,0 +1,182 @@
+.header-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("../../Assets/mountain.jpg");
+    background-size: cover;
+}
+
+.img-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.img-text h1 {
+    color: white;
+    text-shadow: 2px 2px rebeccapurple;
+
+    animation: text-opacity-out-in 1s;
+    -o-animation: text-opacity-out-in 1s;
+    -moz-animation: text-opacity-out-in 1s;
+    -webkit-animation: text-opacity-out-in 1s;
+}
+
+.img-text span {
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px rebeccapurple;
+
+    animation: text-opacity-out-in 1s;
+    -o-animation: text-opacity-out-in 1s;
+    -moz-animation: text-opacity-out-in 1s;
+    -webkit-animation: text-opacity-out-in 1s;
+
+}
+
+@keyframes text-opacity-out-in {
+    from { opacity: 0%;}
+    to { opacity: 100%;}
+}
+
+@-o-keyframes text-opacity-out-in {
+    from { opacity: 0%;}
+    to { opacity: 100%;}
+}
+
+@-moz-keyframes text-opacity-out-in {
+    from { opacity: 0%;}
+    to { opacity: 100%;}
+}
+
+@keyframes text-transform-out-in {
+    from { transform: scale(0.5);}
+    to { transform: scale(1.0);}
+}
+
+@-o-keyframes text-transform-out-in {
+    from { transform: scale(0.5);}
+    to { transform: scale(1.0);}
+}
+
+@-moz-keyframes text-transform-out-in {
+    from { transform: scale(0.5);}
+    to { transform: scale(1.0);}
+}
+
+.about-me-container {
+    min-height: 20rem;
+}
+
+.about-me-container h2 {
+    max-width: 10rem;
+
+    margin-left: 3rem;
+    margin-top: 4rem;
+    font-weight: 200;
+
+    padding-bottom: 1.2rem;
+    border-bottom: 3px solid rebeccapurple;
+}
+
+.about-me-window {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-window .my-name {
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 40px;
+
+    animation: text-opacity-out-in 1s;
+    -o-animation: text-opacity-out-in 1s;
+    -moz-animation: text-opacity-out-in 1s;
+    -webkit-animation: text-opacity-out-in 1s;
+}
+
+.about-me-window .abount-me-description {
+    max-width: 50rem;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+
+    animation: text-opacity-out-in 1s;
+    -o-animation: text-opacity-out-in 1s;
+    -moz-animation: text-opacity-out-in 1s;
+    -webkit-animation: text-opacity-out-in 1s;
+}
+
+.about-me-window .abount-me-description span {
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+.about-me-window .avatar-image {
+    padding: 2rem;
+    border-radius: 400px;
+
+    animation: text-opacity-out-in 1s;
+    -o-animation: text-opacity-out-in 1s;
+    -moz-animation: text-opacity-out-in 1s;
+    -webkit-animation: text-opacity-out-in 1s;
+}
+
+.social-medias {
+    width: 100vw;
+    min-height: 20rem;
+    max-height: 17%;
+
+    padding-top: 2rem;
+
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.social-medias h2 {
+    max-width: 10rem;
+
+    margin-left: 3rem;
+    margin-top: 4rem;
+    font-weight: 200;
+
+    padding-bottom: 1.2rem;
+    border-bottom: 3px solid rebeccapurple;
+}
+
+.social-medias .social-medias-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 3rem;
+
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.social-medias .social-media-icon {
+    cursor: pointer;
+    transition: transform 0.2s;
+    animation: text-transform-out-in 1s;
+    -webkit-animation: text-transform-out-in 1s;
+}
+
+.social-medias .social-media-icon:hover {
+    transform: scale(1.5);
+    transition: transform 0.2s;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

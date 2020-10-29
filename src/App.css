@@ -1,0 +1,13 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+  max-width: 99.4vw;
+
+}
+
+:root {
+  --primary-color: #0074D9;
+}
