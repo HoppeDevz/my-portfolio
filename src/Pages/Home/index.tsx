@@ -3,7 +3,7 @@ import './styles.css';
 import { GitHub, Linkedin, Twitter, Twitch, Instagram } from 'react-feather';
 
 import mountain from '../../Assets/mountain.jpg'
-import myphoto from '../../Assets/myphoto.jpeg'
+import myphoto from '../../Assets/myphoto.webp'
 
 export default function Home(): JSX.Element {
 
