@@ -35,6 +35,11 @@
 
 }
 
+@-webkit-keyframes text-opacity-out-in {
+    from { opacity: 0%;}
+    to { opacity: 100%;}
+}
+
 @keyframes text-opacity-out-in {
     from { opacity: 0%;}
     to { opacity: 100%;}
