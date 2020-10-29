@@ -21,8 +21,8 @@
     color: white;
     text-shadow: 2px 2px rebeccapurple;
 
-    animation: text-opacity-out-in 1s;
-    -webkit-animation: text-opacity-out-in 1s;
+    animation: hoppe-opacity 1s;
+    -webkit-animation: hoppe-opacity 1s;
 }
 
 .img-text span {
@@ -30,29 +30,29 @@
     color: white;
     text-shadow: 2px 2px rebeccapurple;
 
-    animation: text-opacity-out-in 1s;
-    -webkit-animation: text-opacity-out-in 1s;
+    animation: hoppe-opacity 1s;
+    -webkit-animation: hoppe-opacity 1s;
 
 }
 
-@-webkit-keyframes text-opacity-out-in {
-    from { opacity: 0%;}
-    to { opacity: 100%;}
+@-webkit-keyframes hoppe-opacity {
+    0% { opacity: 0%;}
+    100% { opacity: 100%;}
 }
 
-@keyframes text-opacity-out-in {
-    from { opacity: 0%;}
-    to { opacity: 100%;}
+@keyframes hoppe-opacity {
+    0% { opacity: 0%;}
+    100% { opacity: 100%;}
 }
 
-@-o-keyframes text-opacity-out-in {
-    from { opacity: 0%;}
-    to { opacity: 100%;}
+@-o-keyframes hoppe-opacity {
+    0% { opacity: 0%;}
+    100% { opacity: 100%;}
 }
 
-@-moz-keyframes text-opacity-out-in {
-    from { opacity: 0%;}
-    to { opacity: 100%;}
+@-moz-keyframes hoppe-opacity {
+    0% { opacity: 0%;}
+    100% { opacity: 100%;}
 }
 
 @keyframes text-transform-out-in {
@@ -97,8 +97,8 @@
     font-weight: bold;
     font-size: 40px;
 
-    animation: text-opacity-out-in 1s;
-    -webkit-animation: text-opacity-out-in 1s;
+    animation: hoppe-opacity 1s;
+    -webkit-animation: hoppe-opacity 1s;
 }
 
 .about-me-window .abount-me-description {
@@ -106,8 +106,8 @@
     color: rgba(0, 0, 0, 0.8);
     padding: 2rem;
 
-    animation: text-opacity-out-in 1s;
-    -webkit-animation: text-opacity-out-in 1s;
+    animation: hoppe-opacity 1s;
+    -webkit-animation: hoppe-opacity 1s;
 }
 
 .about-me-window .abount-me-description span {
@@ -119,8 +119,8 @@
     padding: 2rem;
     border-radius: 400px;
 
-    animation: text-opacity-out-in 1s;
-    -webkit-animation: text-opacity-out-in 1s;
+    animation: hoppe-opacity 1s;
+    -webkit-animation: hoppe-opacity 1s;
 }
 
 .social-medias {
